@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <script defer src-="script.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Form</title>
 </head>
@@ -15,38 +14,36 @@
         <div class="header">
             <h2>Create Account</h2>
         </div>
-        <form action="" class="form" id="form">
+        <form id="form" class="form">
             <div class="form-control">
-                <label>Username</label>
-                <input type="text" id="username">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Username" id="username" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
-
             <div class="form-control">
-                <label>Email</label>
-                <input type="email" placeholder="hello@florinpop.com" id="email">
-                <i class="fas fa-check-circle"></i>
-                <ion-icon name="alert-outline"></ion-icon>
-                <small>Error message</small>
-            </div>
-
-            <div class="form-control">
-                <label>Password</label>
-                <input type="password" placeholder="Password" id="password">
-                <i class="fas fa-check-circle"></i>
-                <ion-icon name="alert-outline"></ion-icon>
-                <small>Error message</small>
-            </div>
-
-            <div class="form-control">
-                <label>Password Check</label>
-                <input type="password" placeholder="Confirm Password" id="password2">
+                <label for="username">Email</label>
+                <input type="email" placeholder="a@bcdefg.com" id="email" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
         </form>
     </div>
 
